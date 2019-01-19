@@ -51,6 +51,7 @@ def play(my_songs)
    my_songs.each do |song|
     if users_name == song
       system 'open ' + my_songs[song].value
+      puts my_songs[song].value
       puts "Playing #{song}"
     else
       puts "Invalid input, please try again"
