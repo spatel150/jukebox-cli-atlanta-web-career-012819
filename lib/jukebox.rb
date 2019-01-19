@@ -49,7 +49,7 @@ def play(my_songs)
   puts "Please enter a song name or number:"
   users_name = gets.chomp
    my_songs.each do |song|
-    if users_name == song.key
+    if users_name == song
       system 'open ' + my_songs[song].value 
       puts "Playing #{song}"
     else
