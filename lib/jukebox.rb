@@ -50,7 +50,7 @@ def play(my_songs)
   users_name = gets.chomp
    my_songs.each do |song|
     if users_name == my_songs
-      system 'open' < /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/01.mp3,
+      system 'open' + my_songs[songs]
       puts "Playing #{song}"
     else
       puts "Invalid input, please try again"
