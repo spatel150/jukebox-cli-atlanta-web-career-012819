@@ -2,19 +2,18 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
+ my_songs = {
+ "Go Go GO" => '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
+ "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
+ "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
+ }
 
 def help
   #this method should be the same as in jukebox.rb
-
 end
 
 
@@ -22,6 +21,11 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
+  n = 1
+  my_songs.each do |song|
+    puts "#{n}. #{song}"
+    n += 1
+  end
 end
 
 
@@ -38,6 +42,7 @@ end
 
 def exit_jukebox
   #this method is the same as in jukebox.rb
+  puts "Goodbye"
 end
 
 def run(my_songs)
