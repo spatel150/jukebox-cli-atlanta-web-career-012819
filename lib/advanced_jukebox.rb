@@ -3,13 +3,13 @@
 #with the correct path to this directory on your computer
 
  my_songs = {
- "Go Go GO" => '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/01.mp3',
- "LiberTeens" => '< /home/wise-channel-2810  >/jukebox-cli/audio/Emerald-Park/02.mp3',
- "Hamburg" =>  '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/03.mp3',
- "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
- "Wolf" => '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/05.mp3',
- "Blue" => '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/06.mp3',
- "Graduation Failed" => '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/07.mp3'
+ "Go Go GO" => '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819 >/jukebox-cli/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819  >/jukebox-cli/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819 >/jukebox-cli/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819 >/jukebox-cli/audio/Emerald-Park/04.mp3',
+ "Wolf" => '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819 >/jukebox-cli/audio/Emerald-Park/05.mp3',
+ "Blue" => '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819 >/jukebox-cli/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '< /home/wise-channel-2810/jukebox-cli-atlanta-web-career-012819 >/jukebox-cli/audio/Emerald-Park/07.mp3'
  }
 
 def help
