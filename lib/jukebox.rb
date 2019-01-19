@@ -49,7 +49,7 @@ def play(my_songs)
   puts "Please enter a song name or number:"
   users_name = gets.chomp
    my_songs.each do |song|
-    if users_name == song
+    if users_name == my_songs[songs]
       system 'open ' + my_songs
       puts "Playing #{song}"
     else
@@ -57,8 +57,6 @@ def play(my_songs)
     end
   end
   
-  play(my_songs)
-
 def exit_jukebox
   #this method is the same as in jukebox.rb
   puts "Goodbye"
