@@ -56,6 +56,8 @@ def play(my_songs)
       puts "Invalid input, please try again"
     end
   end
+  
+  play(my_songs)
 
 def exit_jukebox
   #this method is the same as in jukebox.rb
