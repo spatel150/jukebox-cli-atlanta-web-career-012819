@@ -4,7 +4,7 @@
 
  my_songs = {
  "Go Go GO" => '< /home/wise-channel-2810 >/jukebox-cli/audio/Emerald-Park/01.mp3',
- "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
+ "LiberTeens" => '<  >/jukebox-cli/audio/Emerald-Park/02.mp3',
  "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
  "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
  "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
